@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TL0dYPXMRyKiAlHvjcwLLvx4fTBknAx5eW99LmgwDpODzsEjnE46/AiXSXlYQQ7tcVUESTZgGTBdRy8IKduUGA==",
+  "success": true,
+  "projectFilePath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.iOS\\eKitchen.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\calvi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}

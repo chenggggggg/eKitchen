@@ -79,6 +79,7 @@ D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\De
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\mscorlib.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\mscorlib.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\netstandard.dll
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.ComponentModel.Composition.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Core.dll
@@ -95,13 +96,17 @@ D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\De
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.IO.Compression.FileSystem.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.IO.Compression.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.dll
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.Extensions.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.pdb
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.Primitives.dll
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Primitives.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Numerics.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Numerics.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Numerics.Vectors.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Numerics.Vectors.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Runtime.dll
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Runtime.InteropServices.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.dll
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Runtime.Serialization.pdb
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.ServiceModel.Internals.dll
@@ -379,6 +384,7 @@ D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\De
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
@@ -388,6 +394,7 @@ D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\De
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\SensorListener.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\SingleLocationListener.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
+D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\src\crc64d2b2e59f460766b2\MainActivity.java
@@ -475,8 +482,3 @@ D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\De
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
-D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.Extensions.dll
-D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Http.Primitives.dll
-D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Net.Primitives.dll
-D:\1. Programming\1. Projects\eKitchen\eKitchen\eKitchen\eKitchen.Android\obj\Debug\90\android\assets\System.Runtime.InteropServices.dll

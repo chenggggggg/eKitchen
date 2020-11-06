@@ -1,9 +1,16 @@
 ﻿using eKitchen.Models;
+using eKitchen.Services;
+using eKitchen.Viewmodels;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
+using System.Net;
 using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,25 +20,35 @@ namespace eKitchen.Views
     public partial class LoginPage : ContentPage
     {
         private HttpClient client = new HttpClient();
-        private User user = new User();
 
         public LoginPage()
         {
             InitializeComponent();
         }
 
-        private void LoginButton_Clicked(object sender, EventArgs e)
+        private async void LoginButton_Clicked(object sender, EventArgs e)
         {
             if (usernameEntry.Text.Length > 0 && passwordEntry.Text.Length > 0)
-            {                
-                GetUser(usernameEntry.Text, passwordEntry.Text);
-                if (user.UserId > 0)
+            {
+                User user = new User(usernameEntry.Text, passwordEntry.Text);
+                
+                //Convert object to json and PostAsync to web API. 
+                string data = JsonConvert.SerializeObject(user);
+                var json = new StringContent(data, Encoding.UTF8, "application/json");
+                var responseString = await HttpClientService.Instance.HttpClient.PostAsync("https://10.0.2.2:44342/api/user/login", json);
+
+                //Deserialize json response to object.
+                var result = await responseString.Content.ReadAsStringAsync();
+                User resultUser = JsonConvert.DeserializeObject<User>(result);
+
+                if (resultUser.UserId > 0)
                 {
-                    Console.WriteLine(user.UserId);
+
+                    await PopAllTo(new HomeViewmodel());
                 }
                 else
                 {
-                    Console.Write("Wrong username/password");
+                    Console.WriteLine("Wrong username/password");
                 }
             }
             else
@@ -40,29 +57,13 @@ namespace eKitchen.Views
             }
         }
 
-        protected async void GetUser(string username, string password)
+        public async Task PopAllTo(HomeViewmodel viewmodel)
         {
-            //var content = await _client.PostAsync("Login", );
-            //var user = JsonConvert.DeserializeObject<User>(content);
-
-            //_user = (User)user;
-
-
-
-            var values = new Dictionary<string, string>
-            {
-                { "username", username },
-                { "password", password }
-            };
-
-            var content = new FormUrlEncodedContent(values);
-
-            var response = await client.PostAsync("https://172.18.25.209:44342/api/user/login", content);
-
-            Console.WriteLine("Posting...");
-
-            var responseString = await response.Content.ReadAsStringAsync();
-
+            if (viewmodel == null) return;
+            HomePage page = new HomePage(viewmodel); //replace 'page' with the page you want to reset to
+            if (page == null) return;
+            Navigation.InsertPageBefore(page, Navigation.NavigationStack.First());
+            await Navigation.PopToRootAsync();
         }
     }
 }

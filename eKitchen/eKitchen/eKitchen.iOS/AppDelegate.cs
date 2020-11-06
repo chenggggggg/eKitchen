@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using eKitchen.Services;
+using System.Net.Http;
 
 namespace eKitchen.iOS
 {

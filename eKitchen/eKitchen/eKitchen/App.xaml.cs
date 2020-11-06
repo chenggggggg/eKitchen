@@ -2,6 +2,7 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
 
 namespace eKitchen
 {
@@ -24,6 +25,7 @@ namespace eKitchen
 
         protected override void OnResume()
         {
+            base.OnResume();
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PylNthaz/MTgy2x0GyYGmJkhjJLNXHp9VakYubH4+JJtPaqXeFZij6xSu9V+1VnMUTWuSvxHdcCx6tUalcTKCA==",
+  "dgSpecHash": "C3Ni7LxO2Rp00Ih5L7xNXTZaKPvCXJICRy4y8FEjnp0Hb3B+sX/SRaNI2diCSC85ASeUG0pLcCAdE/9HXBLf9Q==",
   "success": true,
   "projectFilePath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.iOS\\eKitchen.iOS.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\calvi\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
     "C:\\Users\\calvi\\.nuget\\packages\\xamarin.auth\\1.7.0\\xamarin.auth.1.7.0.nupkg.sha512",
     "C:\\Users\\calvi\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+    "C:\\Users\\calvi\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []
 }

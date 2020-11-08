@@ -1,4 +1,6 @@
-﻿using System;
+﻿using eKitchen.Viewmodels;
+using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

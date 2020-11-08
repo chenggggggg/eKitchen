@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace eKitchen.Models
 {
-    public class User
+    public class User : INotifyPropertyChanged
     {
         public int UserId { get; set; }
 
@@ -12,10 +11,17 @@ namespace eKitchen.Models
 
         public string Password { get; set; }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
         public User(string userName, string password)
         {
             UserName = userName;
             Password = password;
+        }
+
+        public User()
+        {
+
         }
     }
 }

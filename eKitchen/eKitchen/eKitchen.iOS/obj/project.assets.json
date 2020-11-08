@@ -41,6 +41,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.Net.Http/4.3.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -63,15 +78,16 @@
           }
         }
       },
-      "Xam.Plugins.Settings/3.1.1": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
         "compile": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -216,7 +232,8 @@
         "dependencies": {
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
-          "Xam.Plugins.Settings": "3.1.1",
+          "PropertyChanged.Fody": "3.3.1",
+          "Xamarin.Auth": "1.7.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -268,6 +285,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.Net.Http/4.3.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -280,15 +312,16 @@
           "runtimes/win/lib/netstandard1.3/System.Net.Http.dll": {}
         }
       },
-      "Xam.Plugins.Settings/3.1.1": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
         "compile": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -433,7 +466,8 @@
         "dependencies": {
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
-          "Xam.Plugins.Settings": "3.1.1",
+          "PropertyChanged.Fody": "3.3.1",
+          "Xamarin.Auth": "1.7.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -485,6 +519,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.Net.Http/4.3.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -497,15 +546,16 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugins.Settings/3.1.1": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
         "compile": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -650,7 +700,8 @@
         "dependencies": {
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
-          "Xam.Plugins.Settings": "3.1.1",
+          "PropertyChanged.Fody": "3.3.1",
+          "Xamarin.Auth": "1.7.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -702,6 +753,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
       "System.Net.Http/4.3.4": {
         "type": "package",
         "frameworkAssemblies": [
@@ -714,15 +780,16 @@
           "lib/xamarinios10/_._": {}
         }
       },
-      "Xam.Plugins.Settings/3.1.1": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
         "compile": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         },
         "runtime": {
-          "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll": {},
-          "lib/Xamarin.iOS10/Plugin.Settings.dll": {}
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -867,7 +934,8 @@
         "dependencies": {
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
-          "Xam.Plugins.Settings": "3.1.1",
+          "PropertyChanged.Fody": "3.3.1",
+          "Xamarin.Auth": "1.7.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.4.0.991265"
         },
@@ -1095,6 +1163,26 @@
         "packageIcon.png"
       ]
     },
+    "PropertyChanged.Fody/3.3.1": {
+      "sha512": "/K/X8wn2IZV7Zezb+WvieOalWopFJKEcB7BrPoDFCj74VexupWdtvqriCoifSyrX0E+XhTzk0cVQd26hQ7TODg==",
+      "type": "package",
+      "path": "propertychanged.fody/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "propertychanged.fody.3.3.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
     "System.Net.Http/4.3.4": {
       "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
       "type": "package",
@@ -1137,72 +1225,28 @@
         "system.net.http.nuspec"
       ]
     },
-    "Xam.Plugins.Settings/3.1.1": {
-      "sha512": "EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
+    "Xamarin.Auth/1.7.0": {
+      "sha512": "F5yMDdHmcBRochGOeeyIRJ2fangsCEodSbOwg4TQT5kJnsT/CjP6ieXbFfFF9ccni66EgbQ7NTTjvajUlD3IGQ==",
       "type": "package",
-      "path": "xam.plugins.settings/3.1.1",
+      "path": "xamarin.auth/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "content/MonoAndroid10/Helpers/Settings.cs.pp",
-        "content/UAP10/Helpers/Settings.cs.pp",
-        "content/Xamarin.Mac20/Helpers/Settings.cs.pp",
-        "content/Xamarin.iOS10/Helpers/Settings.cs.pp",
-        "content/net45/Helpers/Settings.cs.pp",
-        "content/netstandard1.0/Helpers/Settings.cs.pp",
-        "content/xamarintvOS/Helpers/Settings.cs.pp",
-        "content/xamarinwatchOS/Helpers/Settings.cs.pp",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.Settings.dll",
-        "lib/MonoAndroid10/Plugin.Settings.pdb",
-        "lib/MonoAndroid10/Plugin.Settings.xml",
-        "lib/UAP10/Plugin.Settings.Abstractions.dll",
-        "lib/UAP10/Plugin.Settings.Abstractions.pdb",
-        "lib/UAP10/Plugin.Settings.Abstractions.xml",
-        "lib/UAP10/Plugin.Settings.XML",
-        "lib/UAP10/Plugin.Settings.dll",
-        "lib/UAP10/Plugin.Settings.pdb",
-        "lib/UAP10/Plugin.Settings.pri",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.xml",
-        "lib/Xamarin.Mac20/Plugin.Settings.XML",
-        "lib/Xamarin.Mac20/Plugin.Settings.dll",
-        "lib/Xamarin.Mac20/Plugin.Settings.pdb",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.Settings.dll",
-        "lib/Xamarin.iOS10/Plugin.Settings.xml",
-        "lib/net45/Plugin.Settings.Abstractions.dll",
-        "lib/net45/Plugin.Settings.Abstractions.pdb",
-        "lib/net45/Plugin.Settings.Abstractions.xml",
-        "lib/net45/Plugin.Settings.XML",
-        "lib/net45/Plugin.Settings.dll",
-        "lib/net45/Plugin.Settings.pdb",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.Settings.deps.json",
-        "lib/netstandard1.0/Plugin.Settings.dll",
-        "lib/netstandard1.0/Plugin.Settings.xml",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.dll",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.pdb",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.xml",
-        "lib/xamarintvOS/Plugin.Settings.dll",
-        "lib/xamarintvOS/Plugin.Settings.pdb",
-        "lib/xamarintvOS/Plugin.Settings.xml",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.dll",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.pdb",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.xml",
-        "lib/xamarinwatchOS/Plugin.Settings.dll",
-        "lib/xamarinwatchOS/Plugin.Settings.pdb",
-        "lib/xamarinwatchOS/Plugin.Settings.xml",
-        "readme.txt",
-        "xam.plugins.settings.3.1.1.nupkg.sha512",
-        "xam.plugins.settings.nuspec"
+        "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/MonoAndroid10/Xamarin.Auth.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.pdb",
+        "lib/netstandard1.0/Xamarin.Auth.dll",
+        "lib/netstandard1.6/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.pri",
+        "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "xamarin.auth.1.7.0.nupkg.sha512",
+        "xamarin.auth.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.3.2": {
@@ -1514,7 +1558,7 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 12.0.3",
       "System.Net.Http >= 4.3.4",
-      "Xam.Plugins.Settings >= 3.1.1",
+      "Xamarin.Auth >= 1.7.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.4.0.991265",
       "eKitchen >= 1.0.0"
@@ -1574,9 +1618,9 @@
             "target": "Package",
             "version": "[4.3.4, )"
           },
-          "Xam.Plugins.Settings": {
+          "Xamarin.Auth": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[1.7.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

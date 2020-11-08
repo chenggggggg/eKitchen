@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="eKitchen.Views.HomePage">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Home" />
-    <ContentPage Title="My Profile" />
+    <ContentPage Title="Home" />
+    <ContentPage Title="My eKitchen" />
 </TabbedPage>

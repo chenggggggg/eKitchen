@@ -2,6 +2,12 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Fody/6.3.0": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -65,6 +71,21 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "PropertyChanged.Fody/3.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -74,18 +95,13 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "Xam.Plugins.Settings/3.1.1": {
+      "Xamarin.Auth/1.7.0": {
         "type": "package",
-        "dependencies": {
-          "NETStandard.Library": "1.6.1"
-        },
         "compile": {
-          "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.Settings.dll": {}
+          "lib/netstandard1.6/Xamarin.Auth.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.0/Plugin.Settings.Abstractions.dll": {},
-          "lib/netstandard1.0/Plugin.Settings.dll": {}
+          "lib/netstandard1.6/Xamarin.Auth.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.3.2": {
@@ -120,6 +136,39 @@
     }
   },
   "libraries": {
+    "Fody/6.3.0": {
+      "sha512": "kBGlW/vBUvBSyCvFI3YICNl77gjUr0KMROlBTeBPN/+J3JMU57w1dpXPwjmU4ahdBTYLomzgxKLaJ3jVNuXuQg==",
+      "type": "package",
+      "path": "fody/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.3.0.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
     "Microsoft.Bcl/1.1.10": {
       "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
       "type": "package",
@@ -478,6 +527,26 @@
         "packageIcon.png"
       ]
     },
+    "PropertyChanged.Fody/3.3.1": {
+      "sha512": "/K/X8wn2IZV7Zezb+WvieOalWopFJKEcB7BrPoDFCj74VexupWdtvqriCoifSyrX0E+XhTzk0cVQd26hQ7TODg==",
+      "type": "package",
+      "path": "propertychanged.fody/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net40/PropertyChanged.dll",
+        "lib/net40/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "lib/netstandard2.0/PropertyChanged.dll",
+        "lib/netstandard2.0/PropertyChanged.xml",
+        "propertychanged.fody.3.3.1.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "weaver/PropertyChanged.Fody.dll",
+        "weaver/PropertyChanged.Fody.xcf"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -525,72 +594,28 @@
         "version.txt"
       ]
     },
-    "Xam.Plugins.Settings/3.1.1": {
-      "sha512": "EQEYQJ64ZLqui5GWkLMavgqitHxwUHZHryTzUD1021UBuz1XwDSjPL45W0K4pPXjz9oKbg7YpRXKPR1luPr/5Q==",
+    "Xamarin.Auth/1.7.0": {
+      "sha512": "F5yMDdHmcBRochGOeeyIRJ2fangsCEodSbOwg4TQT5kJnsT/CjP6ieXbFfFF9ccni66EgbQ7NTTjvajUlD3IGQ==",
       "type": "package",
-      "path": "xam.plugins.settings/3.1.1",
+      "path": "xamarin.auth/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "content/MonoAndroid10/Helpers/Settings.cs.pp",
-        "content/UAP10/Helpers/Settings.cs.pp",
-        "content/Xamarin.Mac20/Helpers/Settings.cs.pp",
-        "content/Xamarin.iOS10/Helpers/Settings.cs.pp",
-        "content/net45/Helpers/Settings.cs.pp",
-        "content/netstandard1.0/Helpers/Settings.cs.pp",
-        "content/xamarintvOS/Helpers/Settings.cs.pp",
-        "content/xamarinwatchOS/Helpers/Settings.cs.pp",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.Settings.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.Settings.dll",
-        "lib/MonoAndroid10/Plugin.Settings.pdb",
-        "lib/MonoAndroid10/Plugin.Settings.xml",
-        "lib/UAP10/Plugin.Settings.Abstractions.dll",
-        "lib/UAP10/Plugin.Settings.Abstractions.pdb",
-        "lib/UAP10/Plugin.Settings.Abstractions.xml",
-        "lib/UAP10/Plugin.Settings.XML",
-        "lib/UAP10/Plugin.Settings.dll",
-        "lib/UAP10/Plugin.Settings.pdb",
-        "lib/UAP10/Plugin.Settings.pri",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.dll",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.pdb",
-        "lib/Xamarin.Mac20/Plugin.Settings.Abstractions.xml",
-        "lib/Xamarin.Mac20/Plugin.Settings.XML",
-        "lib/Xamarin.Mac20/Plugin.Settings.dll",
-        "lib/Xamarin.Mac20/Plugin.Settings.pdb",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.pdb",
-        "lib/Xamarin.iOS10/Plugin.Settings.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.Settings.dll",
-        "lib/Xamarin.iOS10/Plugin.Settings.xml",
-        "lib/net45/Plugin.Settings.Abstractions.dll",
-        "lib/net45/Plugin.Settings.Abstractions.pdb",
-        "lib/net45/Plugin.Settings.Abstractions.xml",
-        "lib/net45/Plugin.Settings.XML",
-        "lib/net45/Plugin.Settings.dll",
-        "lib/net45/Plugin.Settings.pdb",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.dll",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.pdb",
-        "lib/netstandard1.0/Plugin.Settings.Abstractions.xml",
-        "lib/netstandard1.0/Plugin.Settings.deps.json",
-        "lib/netstandard1.0/Plugin.Settings.dll",
-        "lib/netstandard1.0/Plugin.Settings.xml",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.dll",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.pdb",
-        "lib/xamarintvOS/Plugin.Settings.Abstractions.xml",
-        "lib/xamarintvOS/Plugin.Settings.dll",
-        "lib/xamarintvOS/Plugin.Settings.pdb",
-        "lib/xamarintvOS/Plugin.Settings.xml",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.dll",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.pdb",
-        "lib/xamarinwatchOS/Plugin.Settings.Abstractions.xml",
-        "lib/xamarinwatchOS/Plugin.Settings.dll",
-        "lib/xamarinwatchOS/Plugin.Settings.pdb",
-        "lib/xamarinwatchOS/Plugin.Settings.xml",
-        "readme.txt",
-        "xam.plugins.settings.3.1.1.nupkg.sha512",
-        "xam.plugins.settings.nuspec"
+        "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/MonoAndroid10/Xamarin.Auth.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.pdb",
+        "lib/netstandard1.0/Xamarin.Auth.dll",
+        "lib/netstandard1.6/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+XamarinIOS10/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pdb",
+        "lib/uap10.0/Xamarin.Auth.pri",
+        "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "xamarin.auth.1.7.0.nupkg.sha512",
+        "xamarin.auth.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.3.2": {
@@ -894,10 +919,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Fody >= 6.3.0",
       "Microsoft.Net.Http >= 2.2.29",
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
-      "Xam.Plugins.Settings >= 3.1.1",
+      "PropertyChanged.Fody >= 3.3.1",
+      "Xamarin.Auth >= 1.7.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.4.0.991265"
     ]
@@ -944,6 +971,12 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Fody": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.3.0, )"
+          },
           "Microsoft.Net.Http": {
             "target": "Package",
             "version": "[2.2.29, )"
@@ -958,9 +991,13 @@
             "target": "Package",
             "version": "[12.0.3, )"
           },
-          "Xam.Plugins.Settings": {
+          "PropertyChanged.Fody": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[3.3.1, )"
+          },
+          "Xamarin.Auth": {
+            "target": "Package",
+            "version": "[1.7.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

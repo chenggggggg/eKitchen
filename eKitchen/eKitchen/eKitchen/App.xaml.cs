@@ -3,6 +3,8 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using eKitchen.Viewmodels;
+using System.Threading.Tasks;
 
 namespace eKitchen
 {
@@ -15,8 +17,16 @@ namespace eKitchen
             MainPage = new NavigationPage(new WelcomePage());
         }
 
-        protected override void OnStart()
+        protected override async void OnStart()
         {
+
+            //LoginViewmodel loginVM = new LoginViewmodel();
+            //await loginVM.AutoLogin();
+            //if (loginVM.UserAccount.UserId > 0)
+            //{
+            //    MainPage = new NavigationPage(new HomePage(new HomeViewmodel()));
+            //}
+
         }
 
         protected override void OnSleep()

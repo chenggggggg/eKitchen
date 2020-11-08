@@ -7,8 +7,8 @@
              x:Class="eKitchen.Views.LoginPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" Spacing="20" Padding="10,0,10,0">
-            <Entry Placeholder="Username" x:Name="usernameEntry"/>
-            <Entry Placeholder="Password" x:Name="passwordEntry" IsPassword="True" />
+            <Entry Placeholder="Username" x:Name="usernameEntry" Text="{Binding UserAccount.UserName}"/>
+            <Entry Placeholder="Password" x:Name="passwordEntry" Text="{Binding UserAccount.Password}" IsPassword="True" />
             <Button Text="login" x:Name="loginButton" Clicked="LoginButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

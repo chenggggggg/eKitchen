@@ -996,23 +996,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\calvi\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Calvi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj",
+      "projectUniqueName": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj",
       "projectName": "eKitchen",
-      "projectPath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj",
-      "packagesPath": "C:\\Users\\calvi\\.nuget\\packages\\",
-      "outputPath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\obj\\",
+      "projectPath": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj",
+      "packagesPath": "C:\\Users\\Calvi\\.nuget\\packages\\",
+      "outputPath": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\calvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Calvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1084,7 +1084,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

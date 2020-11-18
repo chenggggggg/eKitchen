@@ -2270,24 +2270,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\calvi\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Calvi\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\eKitchen.Android.csproj",
+      "projectUniqueName": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\eKitchen.Android.csproj",
       "projectName": "eKitchen.Android",
-      "projectPath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\eKitchen.Android.csproj",
-      "packagesPath": "C:\\Users\\calvi\\.nuget\\packages\\",
-      "outputPath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\obj\\",
+      "projectPath": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\eKitchen.Android.csproj",
+      "packagesPath": "C:\\Users\\Calvi\\.nuget\\packages\\",
+      "outputPath": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\calvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Calvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2301,8 +2301,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj": {
-              "projectPath": "D:\\1. Programming\\1. Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj"
+            "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj": {
+              "projectPath": "C:\\Other Files\\Programming\\1.Projects\\eKitchen\\eKitchen\\eKitchen\\eKitchen\\eKitchen.csproj"
             }
           }
         }

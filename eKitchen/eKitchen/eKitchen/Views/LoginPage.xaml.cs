@@ -10,8 +10,6 @@ namespace eKitchen.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        //private LoginViewmodel viewmodel = new LoginViewmodel();
-
         public LoginPage()
         {
             InitializeComponent();

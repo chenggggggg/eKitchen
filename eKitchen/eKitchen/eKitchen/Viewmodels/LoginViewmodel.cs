@@ -45,10 +45,10 @@ namespace eKitchen.Viewmodels
                 var password = await SecureStorage.GetAsync("password");
                 UserAccount.Password = password;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
-            }             
+            }
         }
 
 
@@ -72,14 +72,6 @@ namespace eKitchen.Viewmodels
             {
                 try
                 {
-                    ////Convert object to json and PostAsync to web API. 
-                    //string data = JsonConvert.SerializeObject(UserAccount);
-                    //var json = new StringContent(data, Encoding.UTF8, "application/json");
-                    //var responseString = await HttpClientService.Instance.HttpClient.PostAsync("https://10.0.2.2:44342/api/user/login", json);
-
-                    ////Deserialize json response to object.
-                    //var result = await responseString.Content.ReadAsStringAsync();
-                    //UserAccount.UserId = JsonConvert.DeserializeObject<int>(result);
                     UserAccount = await DataService.LoginUser(UserAccount);
                 }
                 catch (Exception ex)

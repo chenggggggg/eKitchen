@@ -14,9 +14,14 @@ namespace eKitchen.Views
             InitializeComponent();
         }
 
-        public void LoginButton_Clicked(object sender, EventArgs e)
+        public void SignInButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new LoginPage());
+        }
+
+        public void RegisterButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage());
         }
     }
 }

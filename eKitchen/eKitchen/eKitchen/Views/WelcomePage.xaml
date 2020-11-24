@@ -6,12 +6,15 @@
              mc:Ignorable="d"
              x:Class="eKitchen.Views.WelcomePage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" Spacing="20">
-            <Label Text="Welcome to eKitchen"
+        <Grid>
+            <StackLayout VerticalOptions="Center" Spacing="20">
+                <Label Text="Welcome to eKitchen"
                 FontSize="30"
                 HorizontalOptions="CenterAndExpand"/>
-            <Button Text="Sign in" Clicked="SignInButton_Clicked"/>
-            <Button Text="Register" Clicked="RegisterButton_Clicked"/>
-        </StackLayout>
+                <Button IsVisible="False" Text="Sign in" Clicked="SignInButton_Clicked"/>
+                <Button IsVisible="False" Text="Register" Clicked="RegisterButton_Clicked"/>
+                <ActivityIndicator VerticalOptions="Center" IsVisible="true" IsRunning="True"/>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

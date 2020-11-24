@@ -11,6 +11,10 @@ namespace eKitchen.Views
     {
         public WelcomePage()
         {
+            BindingContext = new WelcomeViewmodel();
+
+            (BindingContext as WelcomeViewmodel).AutoLogin(this.Navigation);
+
             InitializeComponent();
         }
 

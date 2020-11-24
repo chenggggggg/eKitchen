@@ -2,31 +2,48 @@
 using eKitchen.Services;
 using eKitchen.Views;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace eKitchen.Viewmodels
 {
-    public class LoginViewmodel : INotifyPropertyChanged
+    public class WelcomeViewmodel : INotifyPropertyChanged
     {
-
+        public event PropertyChangedEventHandler PropertyChanged;
         public User UserAccount { get; set; }
+        public DataService DataService { get; set; }
+        public bool IsLoading { get; set; } = false;
 
         public INavigation Navigation { get; set; }
 
-        public DataService DataService { get; set; }
-
-        public LoginViewmodel(INavigation navigation)
+        public WelcomeViewmodel()
         {
-            Navigation = navigation;
             DataService = new DataService();
             UserAccount = new User();
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        /// <summary>
+        /// Gets an existing user from the Secure Storage, returns null if none exist.
+        /// </summary>
+        /// <returns></returns>
+        public async Task LoadRememberedUser()
+        {
+            try
+            {
+                UserAccount.UserName = Preferences.Get(nameof(UserAccount.UserName), string.Empty);
+                var password = await SecureStorage.GetAsync("password");
+                UserAccount.Password = password;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         /// <summary>
         /// HTTP Post request for finding an user with the username and password
@@ -49,7 +66,6 @@ namespace eKitchen.Viewmodels
                 {
                     if (UserAccount.UserId > 0)
                     {
-                        await SaveUser();
                         await PopAllTo(new HomeViewmodel());
                     }
                     else
@@ -60,31 +76,27 @@ namespace eKitchen.Viewmodels
             }
             else
             {
-                Console.WriteLine("Please fill in all empty boxes");
+                Console.WriteLine("Invalid user");
             }
         }
 
         /// <summary>
-        /// Save user credentials
+        /// Search for existing user data and logs in automaticly.
         /// </summary>
-        /// <param name="userName"></param>
-        /// <param name="password"></param>
-        public async Task SaveUser()
+        public async void AutoLogin(INavigation navigation)
         {
-            if (UserAccount.UserName.Length > 0 && UserAccount.Password.Length > 0)
-            {
-                try
-                {
-                    Preferences.Set(nameof(UserAccount.UserName), UserAccount.UserName);
-                    await SecureStorage.SetAsync("password", UserAccount.Password);
-                }
-                catch (Exception ex)
-                {
-                    throw ex;
-                }
-            }
-        }
+            IsLoading = true;
 
+            await LoadRememberedUser();
+
+            if (UserAccount.Password != null && UserAccount.Password.Length > 0)
+            {
+                Navigation = navigation;
+                await LoginUser();
+            }
+
+            IsLoading = false;
+        }
 
         /// <summary>
         /// Resets the navigation stack and pushes to Home page.
@@ -94,7 +106,7 @@ namespace eKitchen.Viewmodels
         public async Task PopAllTo(HomeViewmodel viewmodel)
         {
             if (viewmodel == null) return;
-            HomePage page = new HomePage(viewmodel); //replace 'page' with the page you want to reset to
+            HomePage page = new HomePage(viewmodel); 
             if (page == null) return;
             Navigation.InsertPageBefore(page, Navigation.NavigationStack.First());
             await Navigation.PopToRootAsync();

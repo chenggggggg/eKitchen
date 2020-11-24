@@ -26,12 +26,12 @@ C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\De
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\Views\MyProfilePage.xaml.g.cs
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\Views\WelcomePage.xaml.g.cs
-C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.csproj.CoreCompileInputs.cache
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.AssemblyInfoInputs.cache
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.AssemblyInfo.cs
-C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.csproj.Fody.CopyLocal.cache
-C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.dll
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\ref\eKitchen.dll
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.pdb
 C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\Views\RegisterPage.xaml.g.cs
+C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.csproj.CoreCompileInputs.cache
+C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\eKitchen.csproj.Fody.CopyLocal.cache
+C:\Other Files\Programming\1.Projects\eKitchen\eKitchen\eKitchen\eKitchen\obj\Debug\netstandard2.0\XamlC.stamp
